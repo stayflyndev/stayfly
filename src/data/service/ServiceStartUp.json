@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Digital marketing",
+    "description": "We full conduct the marketing of products & services using latest popular digital technologies.",
+    "icon": "icon-basic-globe"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX designs",
+    "description": "Improve conduct the marketing of products & services using latest digital technologies.",
+    "icon": "ion-monitor"
+  },
+  {
+    "id": 3,
+    "title": "SEO marketing",
+    "description": "Include conduct the marketing of products & services using latest digital technologies.",
+    "icon": "ion-ios-baseball-outline"
+  },
+  {
+    "id": 4,
+    "title": "Resource use",
+    "description": "Provide We conduct marketing of products & services using latest digital technologies.",
+    "icon": "ion-pinpoint"
+  }
+]

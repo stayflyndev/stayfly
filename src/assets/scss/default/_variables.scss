@@ -1,0 +1,143 @@
+//===== Root Variables =====//
+:root {
+  // Colors
+  --clr-theme: #0038E3;
+  --clr-theme-2: #0069FF;
+  --clr-secondary: #FF5EE1;
+  --clr-creative: #FE378C;
+  --clr-red: #E33A3F;
+  --clr-red-2: #F23E20;
+  --clr-red-3: #F55D4E;
+  --clr-red-4: #FB6031;
+  --clr-red-5: #d0021b;
+  --clr-yellow: #FCB72B;
+  --clr-yellow-2: #F8A440;
+  --clr-yellow-3: #F5A623;
+  --clr-pink: #F12C6E;
+  --clr-brown: #CE8F4F;
+  --clr-brown-2: #F1C078;
+  --clr-brown-3: #CAC0B3;
+  --clr-third: #99E5E8;
+  --clr-tarkis: #19D2A8;
+  --clr-purple: #B013FE;
+  --clr-purple-2: #AC61EE;
+  --clr-body: #333333;
+  --clr-heading: #222222;
+  --clr-grey: #f5f5f5;
+  --clr-border: #eee;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-placeholder: #333;
+
+  // Font Family
+  --ff-body: 'Poppins', sans-serif;
+  --ff-heading: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Montserrat', sans-serif;
+  --ff-playfair: 'Playfair Display', serif;
+  --ff-Permanent: 'Permanent Marker', cursive;
+  --ff-roboto: 'Roboto', sans-serif;
+
+  // Font Size
+  --fs-body: 16px;
+  --fs-h1: 42px;
+  --fs-h2: 30px;
+  --fs-h3: 26px;
+  --fs-h4: 22px;
+  --fs-h5: 18px;
+  --fs-h6: 14px;
+
+  // Line Height
+  --lh-body: 24px;
+}
+
+
+.color-dark {
+  color: #222222 !important;
+}
+
+
+//===== Font Family =====//
+
+
+$font-1: 'Poppins', sans-serif;
+$font-2: 'Source Sans Pro', sans-serif;
+$font-3: 'Montserrat', sans-serif;
+$font-4: 'Playfair Display', serif;
+$font-5: 'Permanent Marker', cursive;
+$font-6: 'Roboto', sans-serif;
+// Template Font List
+$fontList: $font-1, $font-2, $font-3, $font-4, $font-5, $font-6;
+
+
+/*================================================
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Permanent Marker', cursive;
+ font-family: 'Playfair Display', serif;
+ font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+ =================================================*/
+
+
+// Template Colors
+$color-1: var(--clr-theme);
+$color-2: #FE378C;
+$color-3: #F0263F;
+$color-4: #FCB72B;
+$color-5: #F8A440;
+$color-6: #F05874;
+$color-7: #99E5E8;
+$color-8: #82CECF;
+$color-9: #F0263F;
+$color-10: #19d2a8;
+$color-11: #0069FF;
+$color-12: #F1C078;
+$color-13: #CAC0B3;
+$color-14: #F55D4E;
+$color-15: #AC61EE;
+$color-16: #F5A623;
+$color-17: #B013FE;
+$color-18: #899664;
+$color-19: #F12C6E;
+$color-20: #CE8F4F;
+$color-21: #FB6031;
+$color-22: #A810E0;
+
+// Template Color List
+$colorList: $color-1, $color-2, $color-3, $color-4, $color-5, $color-6, $color-7, $color-8, $color-9, $color-10, $color-11, $color-12, $color-13, $color-14, $color-15, $color-16, $color-17, $color-18, $color-19, $color-20, $color-21, $color-22;
+
+
+
+
+// Layouts
+$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+$sm-laptop-device: 'only screen and (min-width: 1300px) and (max-width: 1599px)';
+$laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$custom-lg-layout: 'only screen and (min-width: 1021px) and (max-width: 1090px)';
+$md-layout: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm-layout: 'only screen and (max-width: 767px)';
+$large-mobile: 'only screen and (max-width: 575px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+
+@media #{$large-mobile} {
+  .container {
+    max-width: 450px;
+  }
+}
+
+@media #{$small-mobile} {
+  .container {
+    max-width: 320px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

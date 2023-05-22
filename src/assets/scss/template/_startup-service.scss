@@ -1,0 +1,162 @@
+/* =======================
+    Start Up Service 
+==========================*/
+.startupservice-wrapper {
+  padding: 150px 100px 150px 316px;
+  margin-top: -40px;
+
+  @media #{$laptop-device} {
+    padding: 50px 46px 50px 66px;
+  }
+
+  @media #{$lg-layout} {
+    padding: 90px 34px 90px 66px;
+  }
+
+  @media #{$md-layout} {
+    padding: 90px 34px 90px 66px;
+  }
+
+  @media #{$sm-layout} {
+    padding: 90px 15px 90px 35px;
+  }
+
+  .single-motive-speech {
+    margin-top: 40px;
+  }
+}
+
+
+/* Start Single Motivation Space */
+
+.single-motive-speech {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  .icon {
+    font-size: 40px;
+    margin-right: 20px;
+    display: inline-block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+
+    i {
+      font-size: 40px;
+    }
+  }
+
+  .content {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+
+    h4 {
+      font-size: 18px;
+      line-height: 1.4;
+      margin-bottom: 21px;
+      font-family: var(--ff-body);
+      font-weight: 600;
+      margin: 0 0 18px;
+    }
+
+    p {
+      max-width: 450px;
+      margin-bottom: 7px;
+    }
+  }
+
+  &.text-white {
+    .icon {
+      i {
+        color: #ffffff;
+      }
+    }
+
+    .content {
+      h4 {
+        color: #ffffff;
+      }
+
+      p {
+        color: #ffffff;
+      }
+    }
+  }
+
+  &.theme-color-2 {
+    .icon {
+      i {
+        color: var(--clr-theme-2);
+      }
+    }
+  }
+
+
+}
+
+.brook-service-area {
+  .client-succeed {
+    position: relative;
+    z-index: 1;
+
+    &:after {
+      content: "";
+      background-color: var(--clr-theme);
+      opacity: 0.9;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+}
+
+.brook-what-do-area {
+  &.startup {
+
+    .bk-title--default {
+      @media screen and (min-width: 992px) {
+        margin-left: 16.666667%;
+
+        .heading {
+          &-h3 {
+            max-width: 50%;
+          }
+        }
+      }
+    }
+
+    .list-header {
+      .heading {
+        color: var(--clr-yellow-2);
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
